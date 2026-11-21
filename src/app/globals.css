@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-padding-top: 6rem;
+}
+
+.hero-surface {
+  background:
+    radial-gradient(ellipse at 85% 0%, #193b72 0%, transparent 65%),
+    linear-gradient(135deg, #111e37, #0b162b 72%);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
